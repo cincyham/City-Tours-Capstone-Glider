@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="landmark-details-div">
   <landmark-details/>
   <!-- <landmarks/> -->
   <reviews />
@@ -21,5 +21,8 @@ export default {
 </script>
 
 <style>
-
+  #landmark-details-div {
+    height: 100vh;
+    background-color: #004e64;
+  }
 </style>
